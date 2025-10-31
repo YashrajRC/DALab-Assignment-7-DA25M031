@@ -12,7 +12,7 @@ The task involves comparing multiple classifiers in a **multi-class classificati
 
 ### 🎯 Objective
 To apply and interpret **ROC-AUC** and **Precision–Recall (PRC)** curves for evaluating models on a complex multi-class dataset.  
-The focus is on understanding how strong and weak classifiers behave across thresholds and identifying a real model with **AUC < 0.5** for baseline comparison.
+The focus is on understanding how strong and weak classifiers behave across thresholds.
 
 ---
 
@@ -54,7 +54,7 @@ Each model was evaluated on:
 ### 🔍 Insights
 - **XGBoost** achieved the best overall performance across all metrics.  
 - **RandomForest** and **SVC** followed closely with strong generalization.  
-- **Dummy (stratified)** model demonstrated **AUC < 0.5**, representing random or worse-than-random classification — used as a baseline for comparison.  
+- **Dummy (stratified)** model demonstrated **AUC < 0.5**, representing random or worse-than-random classification.
 - ROC and PRC analyses revealed that curve-based evaluation provides deeper insights than accuracy alone.
 
 ---
